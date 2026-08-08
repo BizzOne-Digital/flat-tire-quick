@@ -58,6 +58,7 @@ export default function Navbar({ solid = false }) {
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           <a
             href="tel:+12638814191"
+            className="btn-pulse call-now-desktop"
             style={{
               background: 'var(--orange)',
               color: '#fff',
@@ -72,7 +73,6 @@ export default function Navbar({ solid = false }) {
               gap: '8px',
               transition: 'background 0.2s',
             }}
-            className="btn-pulse"
             onMouseEnter={e => e.currentTarget.style.background = 'var(--orange-dark)'}
             onMouseLeave={e => e.currentTarget.style.background = 'var(--orange)'}
           >
@@ -115,12 +115,37 @@ export default function Navbar({ solid = false }) {
               {link}
             </a>
           ))}
+          <a
+            href="tel:+12638814191"
+            className="btn-pulse"
+            style={{
+              background: 'var(--orange)',
+              color: '#fff',
+              padding: '12px 22px',
+              borderRadius: '4px',
+              textDecoration: 'none',
+              fontSize: '14px',
+              fontWeight: 700,
+              letterSpacing: '0.5px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '8px',
+              marginTop: '16px',
+            }}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.55 5.55l1.76-1.76a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 14.92z"/>
+            </svg>
+            Call Now
+          </a>
         </div>
       )}
 
       <style>{`
         @media (max-width: 768px) {
           .hidden-mobile { display: none !important; }
+          .call-now-desktop { display: none !important; }
           .mobile-menu-btn { display: flex !important; }
         }
       `}</style>
