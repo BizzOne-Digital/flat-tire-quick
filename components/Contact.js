@@ -104,24 +104,30 @@ export default function Contact() {
             style={{
               display: 'inline-flex',
               alignItems: 'center',
-              gap: '12px',
-              background: 'var(--orange)',
+              gap: '16px',
+              background: '#FF6A00',
               color: '#fff',
-              padding: '20px 48px',
-              borderRadius: '4px',
+              padding: '26px 56px',
+              borderRadius: '100px',
               textDecoration: 'none',
-              fontSize: '18px',
-              fontWeight: 700,
+              fontSize: 'clamp(20px, 3vw, 28px)',
+              fontWeight: 800,
               letterSpacing: '0.5px',
+              boxShadow: '0 15px 40px rgba(255,106,0,0.35)',
             }}
             className="btn-pulse"
           >
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.55 5.55l1.76-1.76a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 14.92z"/>
             </svg>
-            Call Now: +1 263-881-4191
+            CALL NOW
           </a>
-          <div style={{ color: '#777', fontSize: '13px', marginTop: '16px' }}>Available 24 hours · 7 days · Laval & Montreal</div>
+          <div style={{ marginTop: '20px' }}>
+            <a href="tel:+12638814191" style={{ color: '#111', textDecoration: 'none', fontFamily: 'Bebas Neue, sans-serif', fontSize: 'clamp(28px, 4.5vw, 40px)', letterSpacing: '1px' }}>
+              +1 263-881-4191
+            </a>
+          </div>
+          <div style={{ color: '#777', fontSize: '13px', marginTop: '12px' }}>Available 24 hours · 7 days · Laval & Montreal</div>
 
           {/* Facebook link */}
           <div style={{ marginTop: '24px' }}>
