@@ -141,12 +141,12 @@ export default function Hero() {
         {/* CALL NOW button */}
         <a
           href="tel:+12638814191"
-          className="btn-pulse"
+          className="btn-pulse-green"
           style={{
             display: 'inline-flex',
             alignItems: 'center',
             gap: '14px',
-            background: '#FF6A00',
+            background: 'var(--green)',
             color: '#fff',
             padding: '20px 48px',
             borderRadius: '100px',
@@ -157,9 +157,10 @@ export default function Hero() {
             opacity: loaded ? 1 : 0,
             transform: loaded ? 'translateY(0)' : 'translateY(20px)',
             transition: 'all 0.7s ease 0.55s, background 0.2s',
+            boxShadow: '0 15px 40px rgba(22,163,74,0.4)',
           }}
-          onMouseEnter={e => e.currentTarget.style.background = '#e05f00'}
-          onMouseLeave={e => e.currentTarget.style.background = '#FF6A00'}
+          onMouseEnter={e => e.currentTarget.style.background = 'var(--green-dark)'}
+          onMouseLeave={e => e.currentTarget.style.background = 'var(--green)'}
         >
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.55 5.55l1.76-1.76a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 14.92z"/>

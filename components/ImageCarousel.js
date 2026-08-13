@@ -3,9 +3,10 @@ import { useEffect, useState } from 'react'
 import Image from 'next/image'
 
 const slides = [
-  { src: '/img4.png', alt: 'Mobile tire service at your location' },
-  { src: '/img5.png', alt: 'Technician repairing a flat tire' },
-  { src: '/img7.png', alt: 'Fast roadside assistance' },
+  { src: '/img4.png', alt: 'Mobile tire service at your location', fit: 'cover' },
+  { src: '/img5.png', alt: 'Technician repairing a flat tire', fit: 'cover' },
+  { src: '/img7.png', alt: 'Fast roadside assistance', fit: 'cover' },
+  { src: '/newpic.jpeg', alt: 'How our mobile tire service works, step by step', fit: 'contain' },
 ]
 
 export default function ImageCarousel() {
@@ -35,12 +36,13 @@ export default function ImageCarousel() {
               style={{
                 position: 'absolute',
                 inset: 0,
+                background: slide.fit === 'contain' ? '#0A0A0A' : 'transparent',
                 opacity: active === i ? 1 : 0,
                 transform: active === i ? 'scale(1)' : 'scale(1.04)',
                 transition: 'opacity 0.9s ease, transform 1.2s ease',
               }}
             >
-              <Image src={slide.src} alt={slide.alt} fill style={{ objectFit: 'cover' }} />
+              <Image src={slide.src} alt={slide.alt} fill style={{ objectFit: slide.fit }} />
             </div>
           ))}
 
