@@ -2,6 +2,7 @@ import Navbar from '../../components/Navbar'
 import Services from '../../components/Services'
 import HowItWorks from '../../components/HowItWorks'
 import ServiceAreas from '../../components/ServiceAreas'
+import BookAppointment from '../../components/BookAppointment'
 import FaqSection from '../../components/FaqSection'
 import Footer from '../../components/Footer'
 import FloatingCTA from '../../components/FloatingCTA'
@@ -40,6 +41,7 @@ export default function ServicesPage() {
           bg="var(--black)"
         />
         <ServiceAreas />
+        <BookAppointment />
         <FaqSection
           eyebrow="Services FAQ"
           title="Common Questions"

@@ -4,6 +4,7 @@ import Ticker from '../components/Ticker'
 import Services from '../components/Services'
 import About from '../components/About'
 import Pricing from '../components/Pricing'
+import BookAppointment from '../components/BookAppointment'
 import ImageCarousel from '../components/ImageCarousel'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <About />
       <Pricing />
+      <BookAppointment />
       <ImageCarousel />
       <Contact />
       <Footer />

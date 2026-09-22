@@ -55,7 +55,16 @@ export default function Navbar({ solid = false }) {
         </ul>
 
         {/* CTA */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+          <a
+            href="/#book"
+            className="hidden-mobile"
+            style={{ color: scrolled ? '#444' : '#eee', textDecoration: 'none', fontSize: '13px', fontWeight: 500, letterSpacing: '0.5px', transition: 'color 0.2s' }}
+            onMouseEnter={e => e.target.style.color = scrolled ? '#111' : '#fff'}
+            onMouseLeave={e => e.target.style.color = scrolled ? '#444' : '#eee'}
+          >
+            Book Appointment
+          </a>
           <a
             href="tel:+12638814191"
             className="btn-pulse-green call-now-desktop"
@@ -115,6 +124,13 @@ export default function Navbar({ solid = false }) {
               {link}
             </a>
           ))}
+          <a
+            href="/#book"
+            onClick={() => setMenuOpen(false)}
+            style={{ display: 'block', color: '#444', textDecoration: 'none', padding: '12px 0', fontSize: '15px', borderBottom: '1px solid rgba(0,0,0,0.06)' }}
+          >
+            Book Appointment
+          </a>
           <a
             href="tel:+12638814191"
             className="btn-pulse-green"
