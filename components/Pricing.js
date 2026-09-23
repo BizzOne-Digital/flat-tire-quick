@@ -8,6 +8,7 @@ const prices = [
   { service: 'New Battery Installation', price: 'By vehicle', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"><rect x="2" y="7" width="18" height="11" rx="2"/><rect x="6" y="4" width="3" height="3" rx="1"/><rect x="15" y="4" width="3" height="3" rx="1"/></svg> },
   { service: 'Emergency Gas Delivery', price: 'From $60', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"><path d="M3 22V11L12 2l9 9v11"/><rect x="9" y="15" width="6" height="7"/></svg> },
   { service: 'Mobile Roadside Assistance', price: 'Quote on location', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> },
+  { service: 'Bumper Repair & Fixing', price: 'Quote on location', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"><path d="M3 12h2l2-5h10l2 5h2"/><rect x="3" y="12" width="18" height="5" rx="1"/></svg> },
 ]
 
 export default function Pricing() {

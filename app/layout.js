@@ -2,8 +2,8 @@ import './globals.css'
 
 export const metadata = {
   title: 'Flat Tire Quick Services | 24/7 Mobile Roadside Assistance – Laval & Montreal',
-  description: 'Fast and reliable 24/7 mobile tire repair, tire change, battery boost, and emergency roadside assistance in Laval & Montreal. We come directly to your location.',
-  keywords: 'flat tire repair, mobile tire service, roadside assistance, Laval, Montreal, 24/7, battery boost, emergency gas delivery',
+  description: 'Fast and reliable 24/7 mobile tire repair, tire change, battery boost, bumper repair, and emergency roadside assistance in Laval & Montreal. We come directly to your location.',
+  keywords: 'flat tire repair, mobile tire service, roadside assistance, Laval, Montreal, 24/7, battery boost, emergency gas delivery, bumper repair',
   icons: {
     icon: '/fab.png',
     shortcut: '/fab.png',

@@ -9,7 +9,7 @@ import FloatingCTA from '../../components/FloatingCTA'
 
 export const metadata = {
   title: 'Our Services | Flat Tire Quick Services – Laval & Montreal',
-  description: '24/7 mobile tire repair, tire change, battery boost, and emergency roadside assistance in Laval & Montreal. We come directly to your location.',
+  description: '24/7 mobile tire repair, tire change, battery boost, bumper repair, and emergency roadside assistance in Laval & Montreal. We come directly to your location.',
 }
 
 const steps = [

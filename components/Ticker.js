@@ -6,6 +6,7 @@ export default function Ticker() {
     'New Battery Installation',
     'Emergency Gas Delivery',
     'Mobile Roadside Assistance',
+    'Bumper Repair & Fixing',
     'Available 24/7',
     'Laval & Montreal',
   ]

@@ -74,6 +74,17 @@ const services = [
     price: 'Quote on location',
     image: 'https://images.unsplash.com/photo-1742069029212-60e03b0e938d?q=80',
   },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M3 12h2l2-5h10l2 5h2"/><rect x="3" y="12" width="18" height="5" rx="1"/>
+      </svg>
+    ),
+    title: 'Bumper Repair & Fixing',
+    desc: 'Loose or fallen bumper? We reattach and secure it on-site, safely and reliably.',
+    price: 'Quote on location',
+    image: '/bumper-repair.jpeg',
+  },
 ]
 
 export default function Services() {
