@@ -7,6 +7,12 @@ const slides = [
   { src: '/img5.png', alt: 'Technician repairing a flat tire', fit: 'cover' },
   { src: '/img7.png', alt: 'Fast roadside assistance', fit: 'cover' },
   { src: '/newpic.jpeg', alt: 'How our mobile tire service works, step by step', fit: 'contain' },
+  { src: '/banner-1.jpeg', alt: 'Flat tire repaired, safe and ready to go', fit: 'contain' },
+  { src: '/banner-2.jpeg', alt: 'Flat Tire Quick mobile services overview', fit: 'contain' },
+  { src: '/banner-3.jpeg', alt: 'Removing a flat tire and installing a new one', fit: 'contain' },
+  { src: '/banner-4.jpeg', alt: 'Our full range of mobile tire and auto services', fit: 'contain' },
+  { src: '/banner-5.jpeg', alt: 'Damaged tire replaced with a new tire installed', fit: 'contain' },
+  { src: '/banner-6.jpeg', alt: 'Technician jump-starting a car battery', fit: 'contain' },
 ]
 
 export default function ImageCarousel() {
