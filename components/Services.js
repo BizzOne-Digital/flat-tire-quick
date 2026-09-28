@@ -131,10 +131,10 @@ export default function Services() {
         </div>
 
         {/* Grid */}
-        <div style={{
+        <div className="services-grid" style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(420px, 1fr))',
-          gap: '28px',
+          gridTemplateColumns: 'repeat(3, 1fr)',
+          gap: '20px',
         }}>
           {services.map((svc, i) => (
             <div
@@ -143,13 +143,13 @@ export default function Services() {
               style={{
                 background: 'var(--black)',
                 border: '1px solid rgba(0,0,0,0.08)',
-                borderRadius: '10px',
+                borderRadius: '8px',
                 overflow: 'hidden',
                 boxShadow: '0 2px 12px rgba(0,0,0,0.04)',
               }}
             >
               {/* Image */}
-              <div className="img-zoom-wrap" style={{ position: 'relative', height: '300px' }}>
+              <div className="img-zoom-wrap" style={{ position: 'relative', height: '340px' }}>
                 <Image
                   src={svc.image}
                   alt={svc.title}
@@ -158,26 +158,26 @@ export default function Services() {
                 />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(10,10,10,0.8) 0%, transparent 50%)' }} />
                 <div style={{
-                  position: 'absolute', top: '18px', right: '18px',
+                  position: 'absolute', top: '14px', right: '14px',
                   background: 'var(--orange)', color: '#fff',
-                  padding: '6px 16px', borderRadius: '100px',
-                  fontSize: '13px', fontWeight: 700,
+                  padding: '4px 12px', borderRadius: '100px',
+                  fontSize: '11px', fontWeight: 700,
                 }}>
                   {svc.price}
                 </div>
               </div>
 
               {/* Content */}
-              <div style={{ padding: '32px' }}>
-                <div className="icon-bounce" style={{ color: 'var(--orange)', marginBottom: '18px' }}>{svc.icon}</div>
-                <h3 style={{ color: '#111', fontSize: '24px', fontWeight: 700, marginBottom: '14px' }}>{svc.title}</h3>
-                <p style={{ color: '#666', fontSize: '15px', lineHeight: 1.7, marginBottom: '20px' }}>{svc.desc}</p>
+              <div style={{ padding: '24px' }}>
+                <div className="icon-bounce" style={{ color: 'var(--orange)', marginBottom: '14px' }}>{svc.icon}</div>
+                <h3 style={{ color: '#111', fontSize: '18px', fontWeight: 700, marginBottom: '10px' }}>{svc.title}</h3>
+                <p style={{ color: '#666', fontSize: '13px', lineHeight: 1.7, marginBottom: '14px' }}>{svc.desc}</p>
                 <a
                   href="#book"
-                  style={{ color: 'var(--orange)', fontSize: '14px', fontWeight: 700, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+                  style={{ color: 'var(--orange)', fontSize: '13px', fontWeight: 700, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '6px' }}
                 >
                   View Details
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/>
                   </svg>
                 </a>
@@ -185,6 +185,15 @@ export default function Services() {
             </div>
           ))}
         </div>
+
+        <style jsx>{`
+          @media (max-width: 900px) {
+            .services-grid { grid-template-columns: repeat(2, 1fr) !important; }
+          }
+          @media (max-width: 600px) {
+            .services-grid { grid-template-columns: 1fr !important; }
+          }
+        `}</style>
       </div>
     </section>
   )
