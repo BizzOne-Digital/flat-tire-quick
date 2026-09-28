@@ -66,13 +66,13 @@ const services = [
   {
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+        <path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/>
       </svg>
     ),
-    title: 'Emergency Roadside Assistance',
-    desc: 'Whatever the emergency — we handle it. Full mobile roadside support across Laval & Montreal.',
+    title: 'On-Site Vehicle Assistance',
+    desc: 'Flat tire, battery, or fuel issue — we come to your exact location and fix it on the spot. (No towing services.)',
     price: 'Quote on location',
-    image: 'https://images.unsplash.com/photo-1742069029212-60e03b0e938d?q=80',
+    image: '/img6.png',
   },
   {
     icon: (
@@ -112,7 +112,7 @@ export default function Services() {
                 Our Services
               </h2>
               <p style={{ color: '#666', fontSize: '15px', maxWidth: '500px', lineHeight: 1.7 }}>
-                Full mobile roadside coverage — we come to your exact location anywhere in Laval and Montreal.
+                Flat tire, battery & fuel assistance — we come to your exact location anywhere in Laval and Montreal. No towing services.
               </p>
             </div>
             <a href="tel:+12638814191" style={{

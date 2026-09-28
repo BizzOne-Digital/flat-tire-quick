@@ -7,7 +7,7 @@ import FloatingCTA from '../../components/FloatingCTA'
 
 export const metadata = {
   title: 'Pricing | Flat Tire Quick Services – Laval & Montreal',
-  description: 'Simple, honest, affordable pricing for mobile tire repair, tire change, battery boost, and roadside assistance in Laval & Montreal.',
+  description: 'Simple, honest, affordable pricing for mobile tire repair, tire change, battery boost, and bumper repair in Laval & Montreal. No towing services.',
 }
 
 const included = [

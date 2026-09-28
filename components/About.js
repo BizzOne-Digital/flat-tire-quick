@@ -77,7 +77,7 @@ export default function About() {
             </h2>
 
             <p style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, marginBottom: '16px' }}>
-              Flat Tire Quick Services is Laval and Montreal's trusted mobile tire and roadside assistance provider. We built this service for drivers who don't have time to wait — and can't afford to be stuck.
+              Flat Tire Quick Services is Laval and Montreal's trusted mobile tire and on-site vehicle service provider. We built this service for drivers who don't have time to wait — and can't afford to be stuck. We do not provide towing services.
             </p>
             <p style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, marginBottom: '36px' }}>
               Whether you're in a parking lot, on the highway, at home, or outside the office — we dispatch immediately and come directly to you. No tow trucks. No hassle. Just fast, professional service.

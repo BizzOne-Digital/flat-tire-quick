@@ -50,7 +50,7 @@ export default function Hero() {
           transition: 'all 0.6s ease 0.1s',
         }}>
           <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#FF6A00', display: 'inline-block', animation: 'pulse 1.5s infinite' }} />
-          <span style={{ color: '#FF6A00', fontSize: '13px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>24/7 Mobile Tire &amp; Roadside Rescue</span>
+          <span style={{ color: '#FF6A00', fontSize: '13px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>24/7 Mobile Tire &amp; On-Site Vehicle Service</span>
         </div>
 
         {/* Main headline */}

@@ -12,7 +12,7 @@ export default function Footer() {
               <Image src="/logo.png" alt="Flat Tire Quick Services" width={160} height={46} style={{ height: '36px', width: 'auto', borderRadius: '4px' }} />
             </div>
             <p style={{ color: '#777', fontSize: '13px', lineHeight: 1.8, maxWidth: '280px' }}>
-              Fast, reliable 24/7 mobile tire and roadside assistance. We come to you — home, office, parking lot, or roadside.
+              Fast, reliable 24/7 mobile tire and on-site vehicle service. We come to you — home, office, parking lot, or roadside. No towing services.
             </p>
           </div>
 

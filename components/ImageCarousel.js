@@ -5,7 +5,7 @@ import Image from 'next/image'
 const slides = [
   { src: '/img4.png', alt: 'Mobile tire service at your location', fit: 'cover' },
   { src: '/img5.png', alt: 'Technician repairing a flat tire', fit: 'cover' },
-  { src: '/img7.png', alt: 'Fast roadside assistance', fit: 'cover' },
+  { src: '/img7.png', alt: 'Mobile tire service across Laval & Montreal', fit: 'cover' },
   { src: '/newpic.jpeg', alt: 'How our mobile tire service works, step by step', fit: 'contain' },
   { src: '/banner-1.jpeg', alt: 'Flat tire repaired, safe and ready to go', fit: 'contain' },
   { src: '/banner-2.jpeg', alt: 'Flat Tire Quick mobile services overview', fit: 'contain' },

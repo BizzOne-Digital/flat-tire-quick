@@ -8,7 +8,7 @@ import FloatingCTA from '../../components/FloatingCTA'
 
 export const metadata = {
   title: 'About Us | Flat Tire Quick Services – Laval & Montreal',
-  description: "Learn about Flat Tire Quick Services, Laval and Montreal's trusted 24/7 mobile tire and roadside assistance provider.",
+  description: "Learn about Flat Tire Quick Services, Laval and Montreal's trusted 24/7 mobile tire and on-site vehicle service provider. No towing services.",
 }
 
 const values = [
