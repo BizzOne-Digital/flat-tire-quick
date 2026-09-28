@@ -14,7 +14,7 @@ const services = [
     title: 'Flat Tire Repair',
     desc: 'Fast on-site puncture repair so you\'re back on the road in minutes. We patch and seal — no tow truck needed.',
     price: 'From $80',
-    image: 'https://images.unsplash.com/photo-1596383765797-8e10e88d1590?q=80',
+    image: '/new/img1.webp',
   },
   {
     icon: (
@@ -26,7 +26,7 @@ const services = [
     title: 'Tire Change & Installation',
     desc: 'Full tire swap at your location. Bring your spare or we source the right fit on the spot.',
     price: 'From $80',
-    image: 'https://images.unsplash.com/photo-1578844251758-2f71da64c96f?q=80',
+    image: '/new/img2.webp',
   },
   {
     icon: (
@@ -37,7 +37,7 @@ const services = [
     title: 'Battery Boost / Jump Start',
     desc: 'Dead battery blocking your day? We jump-start your vehicle quickly — no wait, no hassle.',
     price: 'From $60',
-    image: 'https://images.unsplash.com/photo-1597766325363-f5576d851d6a?q=80',
+    image: '/new/img3.webp',
   },
   {
     icon: (
@@ -49,7 +49,7 @@ const services = [
     title: 'New Battery Installation',
     desc: 'We source and install the right battery for your make and model right where you are.',
     price: 'Price on model',
-    image: 'https://images.unsplash.com/photo-1765211003026-f7666ea3a948?q=80',
+    image: '/new/img4.webp',
   },
   {
     icon: (
@@ -61,7 +61,7 @@ const services = [
     title: 'Emergency Gas Delivery',
     desc: 'Ran out of fuel? We bring enough gas to get you to the nearest station safely.',
     price: 'From $60',
-    image: 'https://images.unsplash.com/photo-1664396113489-e50bddd4a777?q=80',
+    image: '/new/img5.webp',
   },
   {
     icon: (
@@ -72,7 +72,7 @@ const services = [
     title: 'On-Site Vehicle Assistance',
     desc: 'Flat tire, battery, or fuel issue — we come to your exact location and fix it on the spot. (No towing services.)',
     price: 'Quote on location',
-    image: '/img6.png',
+    image: '/new/img6.webp',
   },
   {
     icon: (
@@ -83,7 +83,7 @@ const services = [
     title: 'Bumper Repair & Fixing',
     desc: 'Loose or fallen bumper? We reattach and secure it on-site, safely and reliably.',
     price: 'Quote on location',
-    image: '/bumper-repair.jpeg',
+    image: '/new/img7.webp',
   },
 ]
 
