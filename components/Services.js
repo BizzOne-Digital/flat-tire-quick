@@ -85,6 +85,28 @@ const services = [
     price: 'Quote on location',
     image: '/new/img7.webp',
   },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="1" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="23"/>
+      </svg>
+    ),
+    title: 'Spare Tire Installation',
+    desc: 'Flat tire but no time to source a new one? We remove the damaged wheel and mount your vehicle\'s own spare on the spot — quick, safe, and gets you moving again.',
+    price: 'From $60',
+    image: '/new/img8-9.webp',
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v3"/>
+      </svg>
+    ),
+    title: 'Seasonal Tire Change (On Rims)',
+    desc: 'Switching between winter and summer tires that are already mounted on rims? We swap them on-site, correctly torqued — no shop visit needed.',
+    price: 'From $70',
+    image: '/new/img8-9.webp',
+  },
 ]
 
 export default function Services() {
